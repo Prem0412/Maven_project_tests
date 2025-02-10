@@ -4,4 +4,24 @@
   <artifactId>Maven_tests</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>maven_test</name>
+  
+  <dependencies>
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>8.5.1</version>  <!-- Use the latest version -->
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-remote-driver</artifactId>
+			<version>4.13.0</version>
+		</dependency>
+ 
+ 
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.4.0</version>
+		</dependency>
+	</dependencies>
 </project>
